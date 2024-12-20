@@ -1,0 +1,20 @@
+{
+   "name": "MyProjectTypeOrm",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "type": "commonjs",
+   "devDependencies": {
+      "@types/node": "^22.9.0",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.6.3"
+   },
+   "dependencies": {
+      "reflect-metadata": "^0.1.13",
+      "sqlite3": "^5.0.2",
+      "typeorm": "0.3.20"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   }
+}
